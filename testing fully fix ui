@@ -28,10 +28,10 @@ end
 
 local infjump = false
 local teleported = false
-local walkspeed = 16
+local walkspeed = 23
 local jumppower = 50
 local ctrltp = false
-local aibarboff = false
+local aibarboff = true
 local stealheal = false
 local bodyspammer = false
 local spoofarrest = false
@@ -69,10 +69,10 @@ local autorent = false
 local autorentteam = {}
 local autotrip = false
 local autotripteam = {}
-local hitbox = false
-local hitboxsize = 5
-local killaura = false
-local silentaim = false
+local hitbox = true
+local hitboxsize = 8
+local killaura = true
+local silentaim = true
 local playertowhitelist = nil
 local autohunter = false
 local playertohunt = nil
@@ -81,13 +81,13 @@ local kartwarper = false
 local playertowarp = nil
 local playertotele = false
 local frameplayer = nil
-local espmoney = false
+local espmoney = true
 local espfish = false
 local noplresp = false
 local boxes = false
 local tracers = false
-local names = false
-local teamcolors = false
+local names = true
+local teamcolors = true
 
 
 LPH_NO_VIRTUALIZE(function()
