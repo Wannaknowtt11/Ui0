@@ -1224,7 +1224,7 @@ Toggles.playerFly:OnChanged(function()
 end)
 Humanoid:AddSlider('Walkspeed', {
     Text = 'Walkspeed Modifier',
-    Default = 16,
+    Default = 21,
     Min = 16,
     Max = 32,
     Rounding = 0,
